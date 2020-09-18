@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="RegForm.css" type="text/css">
+		<title>Register Yourself</title>
+	</head>
+	<body>
+		<div class="page">
+			<h1>REGISTRATION FORM</h1>
+		
+		<form action="submitted.html" target="_blank">
+			<fieldset>
+				<legend>BASIC DETAILS</legend>
+				<div class="left_col">
+					<label for="fno">Form Number</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="fno" name="formno" placeholder="e.g., 875683930349"  required>
+				</div>
+				<div class="left_col">
+					<label for="name">Name</label>
+				</div>
+				<div class="right_col">
+					<input type="text" id="name" name="name" placeholder="e.g., SHUBHAM KUMAR" required>
+				</div>
+				<div class="left_col">
+					<label for="roll">Roll Number</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="roll" name="roll" placeholder="e.g., 1906006" required>
+				</div>
+				<div class="left_col">
+					<label>Gender</label>
+				</div>
+				<div class="right_col">
+					<input type="radio" id="male" name="gender" value="male" checked>
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="gender" value="female">
+					<label for="">Female</label>
+				</div>
+				<div class="left_col">
+					<label for="dob">DOB</label>
+				</div>
+				<div class="right_col">
+					<input type="date" id="dob" name="dob" required>
+				</div>
+				<div class="left_col">
+					<label for="">PWD</label>
+				</div>
+				<div class="right_col">
+					<label for="yes">YES</label>
+					<input type="radio" id="yes" name="YES_NO" value="yes">
+					<label for="no">NO</label>
+					<input type="radio" id="no" name="YES_NO" value="no" checked>
+				</div>
+				<div class="left_col">
+					<label for="ctr">Category</label>
+				</div>
+				<div class="right_col">
+					<select name="category" id="ctr" required>
+						<option value="general">General</option>
+						<option value="obc">OBC</option>
+						<option value="sc">SC</option>
+						<option value="st">ST</option>
+						<option value="ews">EWS</option>
+					</select>
+				</div>
+				<div class="left_col">
+					<label for="address">ADDRESS</label>
+				</div>
+				<div class="right_col">
+					<textarea id="address" name="address" rows="10" cols="30"  required>
+					</textarea>
+				</div>
+				<p>PLEASE INPUT THE CORRECT PIN CODE</p>
+				<div class="left_col">
+					<label for="pin">PIN CODE</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="pin" name="pin" placeholder="e.g., 800020" required>
+				</div>
+				<div class="left_col">
+					<label for="phone_ST">Phone No.(Student)</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="phone_ST" name="phone_ST" placeholder="e.g., 90655XXXXX" required>
+				</div>
+				<div class="left_col">
+					<label for="phone_GD">Phone No.(Guardian)</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="phone_GD" name="phone_ST" placeholder="e.g., 90655XXXXX" required>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>ACADEMIC INFORMATION</legend>
+				<div class="left_col">
+					<label for="course">COURSE</label>
+				</div>
+				<div class="right_col">
+					<select name="course" id="course">
+						<option value="btech">B.Tech</option>
+						<option value="mtech">M.Tech</option>
+						<option value="archi">Architecture</option>
+					</select>
+				</div>
+				<div class="left_col">
+					<label for="branch">Branch</label>
+				</div>
+				<div class="right_col">
+					<input type="text" id="branch" name="branch" placeholder="e.g., Computer Science" required>
+				</div>
+				<div class="left_col">
+					<label for="air">AIR(JEE MAINS)</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="air" name="air" placeholder="e.g., 13243" required>
+				</div>
+				<div class="left_col">
+					<label for="c_air">Category Rank</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="c_air" name="c_air" placeholder="e.g., 216" required> 
+				</div>
+				<div class="left_col">
+					<label for="cgpa">CGPA</label>
+				</div>
+				<div class="right_col">
+					<input type="number" id="cgpa" name="cgpa" placeholder="6.4" required>
+				</div>
+				<div class="left_col">
+					<label>Backlog</label>
+				</div>
+				<div class="right_col">
+					<label for="yes">YES</label>
+					<input type="radio" id="yes" name="back"value="yes">
+					<label for="no">NO</label>
+					<input type="radio" id="no" name="back" value="no" checked>
+				</div>
+				<div class="left_col">
+					<label for="">Hostel Accomodation</label>
+				</div>
+				<div class="right_col">
+					<label for="yes">YES</label>
+					<input type="radio" id="yes" name="hostel" value="yes" required>
+					<label for="no">NO</label>
+					<input type="radio" id="no" name="hostel" value="no">
+				</div>
+				<div class="left_col">
+					<label for="hostelname">Name Of Hostel</label>
+				</div>
+				<div class="right_col">
+					<input type="text" id="hostelname" name="hostelname" required>
+				</div>
+				<div class="left_col">
+					<label for="roomno">Room Number</label>
+				</div>
+                <div class="right_col">
+                	<input type="number" id="roomno" name="roomno" required >
+                </div>
+			</fieldset>
+			<fieldset>
+				<legend>ACCOUNT DETAILS FOR REFUNDING PROCESS</legend>
+				<div class="left_col">
+					<label for="acc">Account Holder Name</label>
+				</div>
+				<div class="right_col">
+					<input type="text" name="acc" id="ac"  required>
+				</div>
+				<div class="left_col">
+					<label for="accno">Account Number</label>
+				</div>
+				<div class="right_col">
+					<input type="number" name="accno" id="accno" required>
+				</div>
+				<div class="left_col">
+					<label for="ifsc">IFSC Code</label>
+				</div>
+				<div class="right_col">
+					<input type="text" name="ifsc" id="ifsc" required>
+				</div>
+				<div class="left_col">
+					<label for="bankname">Bank Name</label>
+				</div>
+				<div class="right_col">
+					<input type="text" name="bankname" id="bankname" required>
+				</div>
+				<div class="left_col">
+					<label for="bankbranch">Bank Branch</label>
+				</div>
+				<div class="right_col">
+					<input type="text" name="bankbranch" id="bankbranch" required>
+				</div>
+			</fieldset>
+
+			<button type="submit" value="submit" class="registerbtn" >Register</button>
+		</form>
+		</div>
+	</body>
+</html>

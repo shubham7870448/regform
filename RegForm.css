@@ -1,0 +1,115 @@
+body
+{
+	background-image: url('img.jpg');
+	background-size: cover;
+}
+
+.page
+{
+	display:block;
+	width:65%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1{
+	text-align: center;
+	color:white;
+	font-weight:100;
+	text-decoration:underline;
+}
+
+fieldset
+{
+	display:block;
+	width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    color:white;
+    font-weight:100;
+   
+}
+
+
+.left_col
+{
+	float:left;
+	width:30%;
+	margin-top:3px;
+	color:white;
+	font-weight:300;
+	font-size:16px;
+}
+
+::placeholder
+{
+	color:white;
+	opacity:0.6;
+}
+.right_col
+{
+  float:left;
+  width:70%;
+  margin-top:3px;
+  color:white;
+  font-weight:100;
+}
+
+p
+{
+	display:block;
+	font-weight:100;
+}
+
+textarea
+{
+	margin-bottom: 20px;
+}
+input[type=text],input[type=number],input[type=date],textarea
+{
+	width:40%;
+	background-color: transparent;
+	z-index:-1;
+    color:white;
+    border:3px solid white;
+
+}
+
+input[type=radio]
+{
+	background-color: #a8dbe3;
+}
+
+div.register
+{
+	display:inline-block;
+	float:left;
+	width:50%;
+}
+
+
+.registerbtn{
+  display:block;
+  background-color: #1d3345;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+  font-size:20px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:20px;
+  opacity:0.9;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
